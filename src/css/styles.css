@@ -31,7 +31,7 @@
 }
 
 .subheader {
-  background: rgba(0,0,0, .6) ;
+  background: rgba(0, 0, 0, 0.6);
   mix-blend-mode: normal;
   opacity: 0.6;
   padding: 19px 0 17px 0;
@@ -45,24 +45,38 @@
 .subheader_text {
   font-weight: 200;
   font-size: 13px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.5;
   margin-top: 7px;
 }
 
-
-.subheader_call{
-  color: #FFFFFF;
+.subheader_call {
+  color: #ffffff;
   font-weight: 300;
   font-size: 12px;
-  padding-left: 32px;
+  text-align: right;
 }
-.subheader_tel{
-  padding-left: 3px;
+.subheader_tel {
+  display: block;
   font-weight: 400;
   font-size: 22px;
-
+  text-align: right;
+  color: #ffffff;
+  text-decoration: none;
 }
+
+.order_call {
+  width: 162px;
+  height: 46px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
 .advantages {
 }
 .mobile {
