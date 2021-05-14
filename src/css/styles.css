@@ -1,7 +1,24 @@
+header {
+  position: relative;
+}
+
 .main_nav {
   padding: 0 70px;
   min-height: 50px;
   background-color: #212121;
+}
+.visibility_hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.tac {
+  text-align: center;
 }
 
 .menu {
@@ -35,6 +52,8 @@
   mix-blend-mode: normal;
   opacity: 0.6;
   padding: 19px 0 17px 0;
+  position: absolute;
+  width: 100%;
 }
 
 .subheader_logo {
@@ -57,9 +76,11 @@
   text-align: right;
 }
 .subheader_tel {
+  margin-top: 10px;
   display: block;
   font-weight: 400;
   font-size: 22px;
+  line-height: 22px;
   text-align: right;
   color: #ffffff;
   text-decoration: none;
@@ -74,11 +95,122 @@
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
   font-weight: 400;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.promo {
+  min-height: 800px;
+  background: url("../images/promo/promo-bg.jpg") center center/ cover no-repeat;
+  padding: 150px 0 186px 0;
+}
+
+.promo_header {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 60px;
+  margin: 0;
+}
+
+.promo_header_2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 23px;
+}
+.promo_p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 22px;
+  color: #ffffff;
+  line-height: 24px;
+}
+.promo_btn {
+  display: block;
+  margin: 115px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .advantages {
+  margin-top: 18px;
 }
+
+.advantages_header {
+  width: 113px;
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #000000;
+  margin: 0 auto;
+}
+.advantages_header_2 {
+  margin: 0 auto;
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #222222;
+  text-transform: uppercase;
+}
+.pad33-43 {
+  margin-top: 16px;
+  padding-left: 33px;
+  padding-right: 43px;
+}
+
+.adv_wrapper{
+margin-bottom: 26px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.adv_wrapper_icon{
+width: 116px;
+height: 116px;
+border-radius: 50%;
+background: #1EACC7;
+margin-right: 25px;
+}
+
+h4 {
+  margin: 0;
+  text-align-last: left;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 17px;
+  width: 314px;
+}
+
+.adv_descr {
+  margin-top: 14px;
+  text-align-last: left;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  width: 371px;
+}
+
+.adv_icon_1{background: url(../icons/advantages/Rectangle-1.png) center center/ no-repeat; background-size: 80px 66px;}
+.adv_icon_2{background: url('../icons/advantages/Rectangle-2.png') center center/ no-repeat; background-size: auto;}
+.adv_icon_3{background: url('../icons/advantages/Rectangle-3.png') center center/ no-repeat; background-size: auto;}
+.adv_icon_4{background: url('../icons/advantages/Rectangle-4.png') center center/ no-repeat; background-size: auto;}
+
+
 .mobile {
 }
 .options {
