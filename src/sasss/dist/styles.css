@@ -7,6 +7,7 @@ header {
   min-height: 50px;
   background-color: #212121;
 }
+
 .visibility_hidden {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
@@ -39,7 +40,6 @@ header {
   text-decoration: none;
   color: #fff;
 }
-
 .menu_link:not(.menu_link:last-child) > a::after {
   content: "";
   height: 10px;
@@ -75,6 +75,7 @@ header {
   font-size: 12px;
   text-align: right;
 }
+
 .subheader_tel {
   margin-top: 10px;
   display: block;
@@ -101,7 +102,7 @@ header {
 
 .promo {
   min-height: 800px;
-  background: url("../images/promo/promo-bg.jpg") center center/ cover no-repeat;
+  background: url("../images/promo/promo-bg.jpg") center center/cover no-repeat;
   padding: 150px 0 186px 0;
 }
 
@@ -122,6 +123,7 @@ header {
   margin: 0;
   margin-top: 23px;
 }
+
 .promo_p {
   font-size: 18px;
   font-weight: 400;
@@ -129,6 +131,7 @@ header {
   color: #ffffff;
   line-height: 24px;
 }
+
 .promo_btn {
   display: block;
   margin: 115px auto 0 auto;
@@ -157,6 +160,7 @@ header {
   background: #000000;
   margin: 0 auto;
 }
+
 .advantages_header_2 {
   margin: 0 auto;
   margin-top: 32px;
@@ -166,6 +170,7 @@ header {
   color: #222222;
   text-transform: uppercase;
 }
+
 .adv_list {
   padding: 16px 43px 0 33px;
   list-style: none;
@@ -175,6 +180,10 @@ header {
   justify-content: space-around;
 }
 
+.adv_item {
+  display: flex;
+  justify-content: space-between;
+}
 .adv_item:nth-of-type(odd) {
   width: 512px;
   text-align-last: left;
@@ -182,11 +191,6 @@ header {
 .adv_item:nth-of-type(even) {
   width: 480px;
   text-align-last: left;
-}
-
-.adv_item {
-  display: flex;
-  justify-content: space-between;
 }
 
 .icon_wrapper {
@@ -267,14 +271,3 @@ h4 {
   line-height: 21px;
   margin-top: 14px;
 }
-
-/* .mobile {
-}
-.options {
-}
-.conditions {
-}
-.map {
-}
-footer {
-} */
