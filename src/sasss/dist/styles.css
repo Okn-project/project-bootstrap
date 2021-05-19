@@ -150,7 +150,8 @@ header {
   margin-top: 18px;
 }
 
-.advantages_header {
+.header_btn {
+  display: block;
   width: 113px;
   font-size: 11px;
   line-height: 15px;
@@ -180,17 +181,17 @@ header {
   justify-content: space-around;
 }
 
-.adv_item {
-  display: flex;
-  justify-content: space-between;
-}
 .adv_item:nth-of-type(odd) {
   width: 512px;
   text-align-last: left;
+  display: flex;
+  justify-content: space-between;
 }
 .adv_item:nth-of-type(even) {
   width: 480px;
   text-align-last: left;
+  display: flex;
+  justify-content: space-between;
 }
 
 .icon_wrapper {
@@ -270,4 +271,111 @@ h4 {
   font-size: 15px;
   line-height: 21px;
   margin-top: 14px;
+}
+
+.mobile {
+  margin-top: 64px;
+  min-height: 864px;
+  padding: 48px 0 0 0;
+  background: url(../images/mobile/mobile_bg.jpg) center center/cover no-repeat;
+}
+
+.mobile_header {
+  margin-top: 32px;
+  color: #222222;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.mobile_subheader {
+  margin-top: 16px;
+  color: #222222;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+}
+
+.mobile_cont {
+  padding: 30px 22px 80px 22px;
+}
+
+.mb19 {
+  margin-bottom: 19px;
+}
+
+.mobile_item {
+  position: relative;
+  min-height: 280px;
+  width: 320px;
+  margin: 0 auto;
+}
+.mobile_item_options_h {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.mobile_item_1 {
+  padding-top: 82px;
+  background: url("../images/mobile/card-1.jpg") center center/cover no-repeat;
+}
+.mobile_item_2 {
+  padding-top: 88px;
+  background: url("../images/mobile/card-2.jpg") center center/cover no-repeat;
+}
+.mobile_item_3 {
+  padding-top: 88px;
+  background: url("../images/mobile/card-3.jpg") center center/cover no-repeat;
+}
+.mobile_item_4 {
+  padding-top: 88px;
+  background: url("../images/mobile/card-4.jpg") center center/cover no-repeat;
+}
+.mobile_item_5 {
+  padding-top: 88px;
+  background: url("../images/mobile/card-5.jpg") center center/cover no-repeat;
+}
+.mobile_item_6 {
+  padding-top: 83px;
+  background: url("../images/mobile/card-6.jpg") center center/cover no-repeat;
+}
+.mobile_item_options_btn {
+  display: block;
+  height: 29px;
+  width: 29px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 34px;
+  border-radius: 50%;
+  background: #000000;
+}
+.mobile_item_options_btn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translateY(-50%);
+  min-height: 17px;
+  border-right: 2px solid #1EACC7;
+}
+.mobile_item_options_btn:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 25%;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translateY(-50%);
+  min-width: 17px;
+  border-bottom: 2px solid #1EACC7;
 }
