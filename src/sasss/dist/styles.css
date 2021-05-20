@@ -64,13 +64,13 @@ header {
 .subheader_text {
   font-weight: 200;
   font-size: 13px;
-  color: #ffffff;
+  color: #FFFFFF;
   opacity: 0.5;
   margin-top: 7px;
 }
 
 .subheader_call {
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: 300;
   font-size: 12px;
   text-align: right;
@@ -83,7 +83,7 @@ header {
   font-size: 22px;
   line-height: 22px;
   text-align: right;
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -96,7 +96,7 @@ header {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff;
+  color: #FFFFFF;
   text-transform: uppercase;
 }
 
@@ -110,7 +110,7 @@ header {
   font-size: 60px;
   line-height: 60px;
   font-weight: 900;
-  color: #ffffff;
+  color: #FFFFFF;
   line-height: 60px;
   margin: 0;
 }
@@ -118,7 +118,7 @@ header {
 .promo_header_2 {
   font-size: 36px;
   font-weight: 700;
-  color: #ffffff;
+  color: #FFFFFF;
   line-height: 36px;
   margin: 0;
   margin-top: 23px;
@@ -128,7 +128,7 @@ header {
   font-size: 18px;
   font-weight: 400;
   margin-top: 22px;
-  color: #ffffff;
+  color: #FFFFFF;
   line-height: 24px;
 }
 
@@ -143,7 +143,7 @@ header {
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .advantages {
@@ -157,9 +157,16 @@ header {
   line-height: 15px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFFFFF;
   background: #000000;
   margin: 0 auto;
+  border: none;
+  padding: 2px;
+}
+
+.btn_white {
+  background-color: #FFFFFF;
+  color: #070716;
 }
 
 .advantages_header_2 {
@@ -378,4 +385,47 @@ h4 {
   transform: translateY(-50%);
   min-width: 17px;
   border-bottom: 2px solid #1EACC7;
+}
+
+.sub_options_1 {
+  min-height: 502px;
+  background-color: #070716;
+  padding-top: 56px;
+  position: relative;
+}
+.sub_options_1_header {
+  display: block;
+  margin-top: 26px;
+  text-align: center;
+  font-weight: 700;
+  font: size 38px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.sub_options_1_booking {
+  display: block;
+  margin-top: 18px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.sub_options_1_img {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 231px;
+}
+
+.sub_options_2 {
+  min-height: 397px;
+  background: url(../images/options/options_sub_bg.jpg) center center/cover no-repeat;
+  padding-top: 209px;
+}
+.sub_options_2_p {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  color: #222222;
+  text-align: center;
 }
