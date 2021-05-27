@@ -1,4 +1,3 @@
-@import _variables
 header
   position: relative
 
@@ -27,6 +26,7 @@ header
   min-height: 50px
   align-items: center
 
+
 .menu_link
   font-weight: 300
   font-size: 15px
@@ -51,8 +51,8 @@ header
 .subheader_logo
   display: block
   max-width: 100%
-  >img
-    width: 100%
+
+  
 
 .subheader_text
   font-weight: 200
@@ -60,6 +60,7 @@ header
   color: $main_color
   opacity: 0.5
   margin-top: 7px
+  
 
 .subheader_call
   color: $main_color
@@ -88,7 +89,6 @@ header
   font-size: 14px
   color: $main_color
   text-transform: uppercase
-  border: none
 
 .promo
   min-height: 800px
@@ -474,7 +474,7 @@ h4
     z-index: 1
     top: 0
 
-footer
+footer 
   padding-top: 13px
   padding-bottom: 40px
 
@@ -494,7 +494,7 @@ footer
     flex-grow: 1
     width: 33%
   &_social
-    max-width: 50%
+    max-width: 100%
     display: flex
     flex-wrap: wrap
     padding-top: 32px
@@ -519,6 +519,7 @@ footer
       margin: 0 auto
       flex-wrap: wrap
       max-width: 364px
+      justify-content: center
       &_item
         display: block
         margin-right: 47px
@@ -535,6 +536,7 @@ footer
       margin: 0 auto
       flex-wrap: wrap
       max-width: 411px
+      justify-content: center
       &_item
         display: block
         margin-right: 27px
@@ -546,22 +548,22 @@ footer
         color: #999999
       &_item:nth-of-type(5n)
         margin-right: 0
-  &_download
+  &_download 
     width: 296px
     display: flex
     justify-content: space-between
     margin-left: auto
     padding-top: 33px
     &_item
-      display: block
-      width: 94px
-      height: 26px
+       display: block
+       width: 94px
+       height: 26px
     &_item:nth-of-type(1)
-      background: url("../icons/footer/app-store.jpg") center (center / cover) no-repeat
+        background: url("../icons/footer/app-store.jpg") center (center / cover) no-repeat
     &_item:nth-of-type(2)
-      background: url("../icons/footer/Google-play.jpg") center (center / cover) no-repeat
+        background: url("../icons/footer/Google-play.jpg") center (center / cover) no-repeat
     &_item:nth-of-type(3)
-      background: url("../icons/footer/windows-store.jpg") center (center / cover) no-repeat
+        background: url("../icons/footer/windows-store.jpg") center (center / cover) no-repeat
 .russian
   display: block
   color: #1FBAD6
