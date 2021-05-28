@@ -67,7 +67,7 @@
       &_cont
         margin-bottom: 30px
   .footer
-    &_social
+    &_social 
       max-width: 75%
     &_links_main
       padding-top: 19px
@@ -83,25 +83,26 @@
         line-height: 25px
     &_download
       flex-wrap: wrap
-      width: 94px
+      width: 94px 
       &_item
         margin-bottom: 10px
   .russian
-    margin-top: 18px
-    &_download
-      padding-top: 23px
+    margin-top: 18px      
+    &_download 
+      padding-top: 23px  
   .advantages_header_2
     font-size: 32px
   .adv_item
     text-align: center
-  .conditions
+  .conditions 
     &_list_title
       text-align: center !important
     &_list_title_2
       text-align: center !important
+    
 
 @media (max-width: 767px)
-  .menu
+  .menu 
     position: fixed
     top: 0
     left: -100%
@@ -114,16 +115,16 @@
     align-items: center
     z-index: 1
     transition: 0.6s all
-    &_link
+    &_link 
       padding-right: 0
-
+      margin: 10px 0
       > a::after
         display: none
-      > a
+      > a 
         display: block
         font-size: 20px
-        margin-top: 10px
-  .active
+        
+  .active 
     display: flex
     justify-content: center
     align-items: center
@@ -136,27 +137,27 @@
     height: 100vh
     padding: 15px 20px
     background-color: rgba(0,0,0, .8)
-  .hamburger
+  .hamburger 
     display: block
     position: absolute
     right: 10px
     top: 50%
+    transform: translateY(-50%)
     width: 26px
-    height: 12px
-
-    >span
+  
+    >span 
       display: block
       height: 2px
       width: 100%
       background: #fff
       margin-bottom: 2px
-      transition: 0.5s all
+      transition: 0.1s all
   .hamburger_active
     display: block
     position: absolute
     right: 10px
     top: 50%
-    height: 12px
+    transform: translateY(-250%)
     width: 26px
     span
       margin-bottom: -2px
@@ -166,3 +167,41 @@
         display: none
       &:nth-child(3)
         transform: translateY(3px) rotate(45deg)
+  .subheader
+    padding: 0
+    &_logo 
+      margin-top: 16px
+    &_tel 
+      display: block
+      margin-top: 12px
+      font-size: 14px
+      font-weight: 400
+      text-align: center
+    .order_call
+      display: block
+      width: 150px
+      height: 30px
+      margin: 0 auto
+      margin-top: 7px
+      font-size: 12px
+      border: none
+      outline: none
+  .xs_hidden
+    display: none
+  .xs_vivible
+    display: block
+  .promo
+    min-height: 400px
+    padding-bottom: 34px
+    padding-top: 230px
+    &_header 
+      padding: 0 24px
+      line-height: 37px
+      &_2 
+        padding: 0 34px
+        margin-top: 33px
+        line-height: 30px
+  
+.sub_options_1_img
+  width: 100%
+  height: auto
